@@ -1,0 +1,21 @@
+<Combinator:Comments xmlns:Combinator="clr-namespace:Combinator" xmlns:uriMapper="clr-namespace:System.Windows.Navigation;assembly=Microsoft.Phone" NavigationCacheMode="Enabled" Orientation="PortraitUp" SupportedOrientations="Portrait" Title="Aenean mauris maecenas">
+	<Combinator:Comments.NavigationContext>
+		<uriMapper:NavigationContext/>
+	</Combinator:Comments.NavigationContext>
+	<Combinator:Comments.NavigationService>
+		<uriMapper:NavigationService CanGoForward="False" CanGoBack="True">
+			<uriMapper:NavigationService.BackStack>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+				<uriMapper:JournalEntry/>
+			</uriMapper:NavigationService.BackStack>
+		</uriMapper:NavigationService>
+	</Combinator:Comments.NavigationService>
+</Combinator:Comments>

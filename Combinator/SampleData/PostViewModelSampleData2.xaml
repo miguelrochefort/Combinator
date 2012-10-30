@@ -1,0 +1,97 @@
+<Combinator:PostViewModel xmlns:Combinator="clr-namespace:Combinator" ErrorMessage="Sed vestibulum quam fringilla vivamus" IsNotifying="False" IsLoading="True">
+	<Combinator:PostViewModel.Comments>
+		<Combinator:CommentItem Comment="Vestibulum placerat litora nibh" Description="Dapibus pulvinar" IndentationLevel="43" ID="Egestas nisi" Time="Euismod adipiscing luctus parturient porttitor" Username="Per sagittis">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Class vestibulum adipiscing cras parturient" Description="Aenean curabitur aliquam maecenas curae" IndentationLevel="79" ID="Praesent accumsan integer" Time="Bibendum phasellus vestibulum mauris" Username="Nam nullam"/>
+				<Combinator:CommentItem Comment="Sed consequat convallis" Description="Dictumst eleifend aptent" IndentationLevel="81" ID="Dignissim facilisi vestibulum quisque" Time="Auctor donec adipiscing duis parturient" Username="Vestibulum elementum etiam dis"/>
+				<Combinator:CommentItem Comment="Nunc amet faucibus" Description="Habitant inceptos ante fusce" IndentationLevel="54" ID="Lorem arcu vestibulum" Time="Interdum vivamus facilisis" Username="Fermentum est congue fringilla"/>
+				<Combinator:CommentItem Comment="Aliquam morbi" Description="Nulla habitasse diam hendrerit himenaeos" IndentationLevel="70" ID="Adipiscing proin hac imperdiet aliquet" Time="Blandit lobortis leo commodo" Username="Cursus parturient eget"/>
+				<Combinator:CommentItem Comment="Augue elit enim dictum" Description="Dolor erat nascetur pharetra" IndentationLevel="17" ID="Fames mus conubia" Time="Cubilia malesuada penatibus nec lectus" Username="Libero non eros vestibulum ligula"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Aliquet eleifend" Description="Blandit convallis facilisi" IndentationLevel="76" ID="Mus nec cras rutrum" Time="Duis dignissim sapien parturient elementum" Username="Faucibus habitant vestibulum">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Magnis tincidunt vestibulum senectus feugiat" Description="Sed gravida vestibulum tristique" IndentationLevel="53" ID="Iaculis adipiscing ultricies lacinia" Time="Felis laoreet" Username="Mattis nisl"/>
+				<Combinator:CommentItem Comment="Parturient venenatis mauris" Description="Mollis sociosqu" IndentationLevel="60" ID="Ipsum suscipit montes" Time="Nunc natoque torquent sem odio" Username="Ultrices sit vehicula nostra"/>
+				<Combinator:CommentItem Comment="Vel volutpat nam" Description="Posuere justo lacus ornare" IndentationLevel="88" ID="Maecenas potenti praesent accumsan vestibulum" Time="Vestibulum adipiscing" Username="Sed pretium lorem parturient"/>
+				<Combinator:CommentItem Comment="Vestibulum rhoncus" Description="Orci bibendum sodales" IndentationLevel="67" ID="Magna pede platea viverra" Time="Vulputate vestibulum" Username="Dictumst curabitur"/>
+				<Combinator:CommentItem Comment="Adipiscing dis" Description="Quam quis phasellus primis aliquam" IndentationLevel="36" ID="Integer quisque" Time="Est consequat hac" Username="Vivamus leo aliquam urna"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Vulputate torquent" Description="Vestibulum eros nibh mus" IndentationLevel="83" ID="Nullam adipiscing nec" Time="Curabitur aptent ultrices" Username="Parturient auctor">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Facilisis fermentum" Description="Fringilla habitasse inceptos" IndentationLevel="34" ID="Nunc non interdum massa" Time="Semper commodo sociis conubia vestibulum" Username="Metus cubilia amet adipiscing"/>
+				<Combinator:CommentItem Comment="Per taciti hendrerit ante" Description="Himenaeos sed parturient imperdiet lobortis" IndentationLevel="49" ID="Dapibus arcu" Time="Nascetur pharetra" Username="Tellus sem"/>
+				<Combinator:CommentItem Comment="Diam malesuada" Description="Eget penatibus morbi vestibulum" IndentationLevel="68" ID="Egestas tempor sit tempus euismod" Time="Feugiat porttitor" Username="Vestibulum elit"/>
+				<Combinator:CommentItem Comment="Gravida tincidunt placerat tristique iaculis" Description="Neque enim pulvinar adipiscing" IndentationLevel="27" ID="Ultricies parturient vestibulum" Time="Tortor lacinia" Username="Laoreet sagittis senectus vel turpis"/>
+				<Combinator:CommentItem Comment="Varius nam sed" Description="Venenatis vestibulum dis natoque" IndentationLevel="84" ID="Est sociosqu" Time="Suscipit erat aenean hac adipiscing" Username="Mauris leo netus parturient vestibulum"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Fusce habitasse adipiscing sed" Description="Lorem hendrerit parturient" IndentationLevel="77" ID="Morbi dis vestibulum ante himenaeos" Time="Nostra est vivamus arcu nulla" Username="Hac proin ornare augue">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Congue posuere" Description="Nisi cursus vestibulum" IndentationLevel="72" ID="Phasellus consequat non nisl" Time="Dictum vestibulum convallis" Username="Nulla dignissim adipiscing"/>
+				<Combinator:CommentItem Comment="Parturient lectus porta vehicula elementum" Description="Purus volutpat" IndentationLevel="47" ID="Libero vestibulum" Time="Facilisis fermentum ligula" Username="Per litora nunc odio sed"/>
+				<Combinator:CommentItem Comment="Risus vestibulum" Description="Maecenas luctus" IndentationLevel="55" ID="Velit potenti vitae" Time="Orci pede fringilla pretium magnis" Username="Class mattis"/>
+				<Combinator:CommentItem Comment="Praesent rhoncus adipiscing quam" Description="Mauris quis parturient sem urna" IndentationLevel="65" ID="Accumsan sit cras sodales duis" Time="Curae bibendum" Username="Dictumst vestibulum donec vestibulum mollis"/>
+				<Combinator:CommentItem Comment="Etiam nunc viverra" Description="Aliquam adipiscing" IndentationLevel="46" ID="Parturient integer eleifend quisque" Time="Amet vestibulum facilisi montes vel" Username="Vestibulum nam"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Neque placerat" Description="Odio adipiscing elementum natoque sit" IndentationLevel="12" ID="Orci pulvinar facilisis fermentum" Time="Vel nam sagittis" Username="Fringilla netus parturient nulla vestibulum">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Aliquam platea" Description="Dolor primis rutrum faucibus" IndentationLevel="89" ID="Aliquet leo blandit diam" Time="Mus sapien" Username="Commodo semper"/>
+				<Combinator:CommentItem Comment="Eget fames imperdiet elit conubia" Description="Enim felis" IndentationLevel="66" ID="Cubilia vestibulum habitant" Time="Malesuada erat sociis dapibus" Username="Penatibus ipsum taciti"/>
+				<Combinator:CommentItem Comment="Porttitor tellus tincidunt tristique" Description="Justo inceptos interdum ultricies" IndentationLevel="25" ID="Nec lacus" Time="Eros egestas venenatis" Username="Nibh tempor adipiscing lobortis"/>
+				<Combinator:CommentItem Comment="Tempus vulputate" Description="Tortor curabitur nascetur" IndentationLevel="21" ID="Lorem non parturient" Time="Euismod feugiat gravida nisi" Username="Magna per nisl"/>
+				<Combinator:CommentItem Comment="Massa phasellus" Description="Metus vestibulum consequat pharetra" IndentationLevel="98" ID="Convallis iaculis nunc" Time="Morbi lacinia dignissim sed" Username="Vestibulum sem laoreet turpis"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Morbi vel nulla nam" Description="Libero vestibulum" IndentationLevel="46" ID="Vestibulum ligula" Time="Eget proin curabitur adipiscing" Username="Litora phasellus">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Habitasse varius pede sed" Description="Posuere porta purus" IndentationLevel="97" ID="Potenti quam" Time="Aenean vestibulum adipiscing pretium dis" Username="Quis parturient rhoncus vestibulum"/>
+				<Combinator:CommentItem Comment="Risus mauris velit urna" Description="Senectus est vestibulum" IndentationLevel="62" ID="Hac nullam" Time="Cras sodales sociosqu aptent" Username="Duis suscipit leo"/>
+				<Combinator:CommentItem Comment="Torquent mus nunc ultrices" Description="Viverra vehicula aliquam nec" IndentationLevel="76" ID="Hendrerit himenaeos imperdiet" Time="Malesuada amet non penatibus porttitor" Username="Vitae auctor"/>
+				<Combinator:CommentItem Comment="Volutpat tincidunt maecenas praesent accumsan" Description="Per ante integer tristique sed" IndentationLevel="17" ID="Adipiscing quisque parturient" Time="Ultricies class congue" Username="Curae arcu bibendum vestibulum donec"/>
+				<Combinator:CommentItem Comment="Vivamus vestibulum" Description="Diam etiam adipiscing fusce sem" IndentationLevel="28" ID="Venenatis cursus" Time="Lorem vulputate dictum" Username="Sit lectus parturient"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Dis hendrerit taciti himenaeos" Description="Euismod metus" IndentationLevel="73" ID="Est senectus odio hac orci" Time="Sociosqu tellus tempor" Username="Tempus pede">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Consequat dictumst" Description="Sed augue dis elit" IndentationLevel="16" ID="Parturient luctus" Time="Dolor eleifend facilisi est convallis" Username="Fames faucibus hac leo"/>
+				<Combinator:CommentItem Comment="Vestibulum felis magnis" Description="Mus enim dignissim" IndentationLevel="37" ID="Habitant mattis" Time="Mauris aliquam mollis nec" Username="Non erat"/>
+				<Combinator:CommentItem Comment="Ipsum inceptos per aliquet blandit" Description="Interdum sed vestibulum" IndentationLevel="92" ID="Justo adipiscing elementum facilisis" Time="Lobortis lacus montes" Username="Eros commodo nascetur sem lorem"/>
+				<Combinator:CommentItem Comment="Fermentum conubia sit pharetra" Description="Cubilia fringilla nostra" IndentationLevel="65" ID="Parturient placerat dapibus" Time="Egestas ornare magna platea" Username="Primis rutrum habitasse pulvinar"/>
+				<Combinator:CommentItem Comment="Nibh sapien" Description="Vel nam sed" IndentationLevel="33" ID="Semper nisi" Time="Sociis nisl massa" Username="Vestibulum nunc vestibulum sagittis"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Risus hac curabitur leo" Description="Elit rhoncus sodales" IndentationLevel="56" ID="Mus nec parturient vestibulum" Time="Phasellus vestibulum" Username="Consequat adipiscing enim dictumst non">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Adipiscing parturient tortor" Description="Imperdiet feugiat suscipit" IndentationLevel="95" ID="Quam malesuada gravida" Time="Torquent turpis leo" Username="Ultrices quis vestibulum"/>
+				<Combinator:CommentItem Comment="Varius iaculis" Description="Vestibulum morbi lacinia" IndentationLevel="12" ID="Mus laoreet adipiscing" Time="Aenean vehicula" Username="Mauris urna parturient penatibus neque"/>
+				<Combinator:CommentItem Comment="Nec porttitor non per" Description="Netus vestibulum tincidunt cras" IndentationLevel="62" ID="Sed nullam natoque posuere" Time="Duis tristique" Username="Ultricies sem"/>
+				<Combinator:CommentItem Comment="Sit vel nunc volutpat amet" Description="Aptent ante" IndentationLevel="18" ID="Vestibulum nam nulla sed adipiscing" Time="Arcu diam auctor" Username="Porta parturient eget potenti"/>
+				<Combinator:CommentItem Comment="Maecenas dis praesent" Description="Vestibulum vestibulum accumsan congue" IndentationLevel="36" ID="Venenatis vulputate adipiscing cursus" Time="Purus est" Username="Pretium bibendum"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Commodo nunc parturient conubia" Description="Vestibulum etiam montes malesuada" IndentationLevel="34" ID="Vestibulum nascetur amet" Time="Pharetra fusce" Username="Cubilia adipiscing ante penatibus dis">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Erat eros" Description="Per dictum sed" IndentationLevel="12" ID="Nibh sem eleifend viverra velit" Time="Parturient aliquam vestibulum" Username="Sit lectus integer vestibulum"/>
+				<Combinator:CommentItem Comment="Vitae quisque convallis adipiscing" Description="Vel nam parturient facilisi sed" IndentationLevel="31" ID="Dis vestibulum libero" Time="Est dignissim" Username="Elementum facilisis class fermentum ligula"/>
+				<Combinator:CommentItem Comment="Faucibus vestibulum adipiscing" Description="Habitant hac vivamus parturient curae" IndentationLevel="15" ID="Leo litora" Time="Vestibulum vestibulum luctus magnis" Username="Adipiscing aliquam inceptos fringilla nisi"/>
+				<Combinator:CommentItem Comment="Nisl nunc mus" Description="Habitasse nec non odio orci" IndentationLevel="85" ID="Aliquet mattis" Time="Pede interdum lobortis" Username="Quam per parturient vestibulum mauris"/>
+				<Combinator:CommentItem Comment="Vestibulum hendrerit donec sed" Description="Himenaeos imperdiet" IndentationLevel="13" ID="Quis sem urna" Time="Mollis sit vel cras" Username="Nam adipiscing sed blandit duis"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+		<Combinator:CommentItem Comment="Magna elementum torquent taciti facilisis" Description="Tellus per" IndentationLevel="51" ID="Tempor fermentum" Time="Pede ultrices quisque" Username="Vehicula tempus">
+			<Combinator:CommentItem.Children>
+				<Combinator:CommentItem Comment="Porttitor arcu nostra diam" Description="Dapibus est parturient placerat" IndentationLevel="65" ID="Eget ornare elit" Time="Hac tincidunt egestas" Username="Pulvinar tristique lorem ultricies"/>
+				<Combinator:CommentItem Comment="Euismod morbi" Description="Vestibulum vestibulum feugiat adipiscing venenatis" IndentationLevel="24" ID="Platea parturient gravida" Time="Enim iaculis erat" Username="Leo nulla vulputate"/>
+				<Combinator:CommentItem Comment="Proin primis" Description="Curabitur augue lacinia vestibulum sagittis" IndentationLevel="44" ID="Eros nibh vestibulum laoreet phasellus" Time="Adipiscing natoque mus posuere" Username="Nisi nisl senectus"/>
+				<Combinator:CommentItem Comment="Rutrum nunc consequat" Description="Potenti sapien dolor" IndentationLevel="76" ID="Nec non semper pretium rhoncus" Time="Fames odio" Username="Convallis parturient felis orci vestibulum"/>
+				<Combinator:CommentItem Comment="Vestibulum ipsum sodales sociosqu" Description="Suscipit dignissim viverra" IndentationLevel="81" ID="Justo adipiscing" Time="Aliquam lacus sociis" Username="Integer lorem parturient"/>
+			</Combinator:CommentItem.Children>
+		</Combinator:CommentItem>
+	</Combinator:PostViewModel.Comments>
+	<Combinator:PostViewModel.Post>
+		<Combinator:PostItem Comments="Massa vestibulum sem" Description="Volutpat aliquam" Item_ID="Sit adipiscing" Score="Vel metus" Time="Aliquet habitasse parturient vestibulum" Title="Morbi neque vestibulum" Url="Adipiscing netus parturient tortor blandit" User="Vestibulum hendrerit"/>
+	</Combinator:PostViewModel.Post>
+</Combinator:PostViewModel>

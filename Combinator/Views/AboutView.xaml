@@ -1,0 +1,107 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:local="clr-namespace:Combinator" 
+    x:Class="Combinator.AboutView"
+	xmlns:cal="http://www.caliburnproject.org"
+	xmlns:cal1="clr-namespace:Caliburn.Micro;assembly=Caliburn.Micro" 
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="696" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True"
+	shell:SystemTray.BackgroundColor="#FFFF6600"
+	shell:SystemTray.ForegroundColor="#FF000000"
+	>
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardIn"/>
+            </toolkit:NavigationInTransition.Backward>
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardIn"/>
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:TurnstileTransition Mode="BackwardOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:TurnstileTransition Mode="ForwardOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+	<Grid x:Name="LayoutRoot" Background="#FFF6F6EF">
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="0*"/>
+			<ColumnDefinition/>
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<!--TitlePanel contains the name of the application and page title-->
+		<StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="24,17,0,28" Grid.ColumnSpan="2" >
+			<TextBlock x:Name="ApplicationTitle" Text="COMBINATOR" Foreground="Black" Margin="0,0,0,0" Style="{StaticResource PhoneTextNormalStyle}" />
+			<TextBlock x:Name="PageTitle" Text="about" Foreground="Black" Margin="-3,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+		</StackPanel>
+
+
+		<!--ContentPanel - place additional content here-->
+		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="24,0,24,0" Grid.ColumnSpan="2">
+			<StackPanel Margin="0">
+				<StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+					<Image Height="100" Width="100" Source="Background.png"/>
+					<StackPanel Width="284" Margin="12,0,0,0">
+						<TextBlock Text="Combinator" Foreground="Black" FontSize="40"/>
+						<TextBlock Foreground="#FF828282" Text="Version 2.1"></TextBlock>
+					</StackPanel>
+				</StackPanel>
+				<StackPanel Orientation="Vertical" Margin="0,0,0,12">
+					<TextBlock Text="Publisher" Foreground="Black" FontSize="{StaticResource PhoneFontSizeLarge}" Margin="0"/>
+					<TextBlock Text="Miguel Rochefort" Foreground="#FF828282" FontSize="{StaticResource PhoneFontSizeMedium}" Margin="0"/>
+				</StackPanel>
+				<StackPanel Margin="0,0,0,12" Orientation="Vertical">
+					<TextBlock Foreground="Black" FontSize="{StaticResource PhoneFontSizeLarge}" Margin="0" Text="Contact"/>
+					<StackPanel Margin="-12,0,0,0">                 
+						<HyperlinkButton Foreground="#FF828282" x:Name="Email" HorizontalContentAlignment="Left" FontSize="{StaticResource PhoneFontSizeMedium}" Content="Email" />
+						<HyperlinkButton Foreground="#FF828282" x:Name="Twitter" HorizontalContentAlignment="Left" FontSize="{StaticResource PhoneFontSizeMedium}" Content="Twitter"/>
+					</StackPanel>
+
+				</StackPanel>
+				<StackPanel Margin="0,0,0,12" Orientation="Vertical">
+					<TextBlock Text="Powered by" Foreground="Black" FontSize="{StaticResource PhoneFontSizeLarge}" Margin="0"/>
+					<StackPanel Margin="-12,0,0,0">
+						<HyperlinkButton Foreground="#FF828282" x:Name="HNDroidAPI" HorizontalContentAlignment="Left" FontSize="{StaticResource PhoneFontSizeMedium}" Content="HNDroidAPI" />                 
+						<HyperlinkButton Foreground="#FF828282" x:Name="iHackerNewsAPI" HorizontalContentAlignment="Left" FontSize="{StaticResource PhoneFontSizeMedium}" Content="iHackerNews" />
+						<HyperlinkButton Foreground="#FF828282" x:Name="CaliburnMicro" HorizontalContentAlignment="Left" FontSize="{StaticResource PhoneFontSizeMedium}" Content="Caliburn Micro"/>
+						<HyperlinkButton Foreground="#FF828282" x:Name="RestSharp" HorizontalContentAlignment="Left" FontSize="{StaticResource PhoneFontSizeMedium}" Content="RestSharp"/>
+						<HyperlinkButton Foreground="#FF828282" x:Name="JsonNET" HorizontalContentAlignment="Left" FontSize="{StaticResource PhoneFontSizeMedium}" Content="Json.NET"/>
+					</StackPanel>
+				</StackPanel>
+			</StackPanel>
+		</Grid>
+	</Grid>
+ 
+	<!--Sample code showing usage of ApplicationBar-->
+    <phone:PhoneApplicationPage.ApplicationBar>
+    	<shell:ApplicationBar BackgroundColor="#FFFF6600" ForegroundColor="Black" IsVisible="True" Mode="Default"  Opacity="1">
+            <shell:ApplicationBar.MenuItems>
+            </shell:ApplicationBar.MenuItems>
+    		<cal1:AppBarButton IconUri="/icons/appbar.favs.rest.png" Message="Rate" Text="rate" IsEnabled="True"/>
+    		<cal1:AppBarButton IconUri="/icons/appbar.share.rest.png" Message="Share" Text="share" IsEnabled="True"/>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+</phone:PhoneApplicationPage>
